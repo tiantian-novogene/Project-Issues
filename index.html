@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Project Issues</title>
+  <meta name="description" content="This is a summary document about project issues." />
+  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Project Issues" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is a summary document about project issues." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Project Issues" />
+  
+  <meta name="twitter:description" content="This is a summary document about project issues." />
+  
+
+<meta name="author" content="US BI" />
+
+
+<meta name="date" content="2024-08-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="customized-request.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Handy Booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Mid/After-sale</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#eukmrnaseq"><i class="fa fa-check"></i><b>1.1</b> EukmRNAseq</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#quantification"><i class="fa fa-check"></i><b>1.1.1</b> Quantification</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#batch-effect"><i class="fa fa-check"></i><b>1.1.2</b> Batch effect</a></li>
+<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#differential-expression-genes-degs"><i class="fa fa-check"></i><b>1.1.3</b> Differential Expression Genes (DEGs)</a></li>
+<li class="chapter" data-level="1.1.4" data-path="index.html"><a href="index.html#enrichment"><i class="fa fa-check"></i><b>1.1.4</b> Enrichment</a></li>
+<li class="chapter" data-level="1.1.5" data-path="index.html"><a href="index.html#as"><i class="fa fa-check"></i><b>1.1.5</b> AS</a></li>
+<li class="chapter" data-level="1.1.6" data-path="index.html"><a href="index.html#snp"><i class="fa fa-check"></i><b>1.1.6</b> SNP</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#chip-seqrip-seqatac-seq"><i class="fa fa-check"></i><b>1.2</b> ChIP-Seq/RIP-seq/ATAC-seq</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#human"><i class="fa fa-check"></i><b>1.3</b> HUMAN</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#plantanimalmicrobial-wgs"><i class="fa fa-check"></i><b>1.4</b> Plant/Animal/Microbial WGS</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#shotgun-metagenomics"><i class="fa fa-check"></i><b>1.5</b> Shotgun Metagenomics</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#shallow-shortgun-metagenomics"><i class="fa fa-check"></i><b>1.6</b> Shallow Shortgun-Metagenomics</a></li>
+<li class="chapter" data-level="1.7" data-path="index.html"><a href="index.html#xsnrnaseq"><i class="fa fa-check"></i><b>1.7</b> 10XsnRNAseq</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="customized-request.html"><a href="customized-request.html"><i class="fa fa-check"></i><b>2</b> Customized request</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="customized-request.html"><a href="customized-request.html#eukmrnaseq-1"><i class="fa fa-check"></i><b>2.1</b> EukmRNAseq</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Project Issues</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Project Issues</h1>
+<p class="author"><em>US BI</em></p>
+<p class="date"><em>2024-08-22</em></p>
+</div>
+<div id="midafter-sale" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Part 1</span> Mid/After-sale<a href="index.html#midafter-sale" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="eukmrnaseq" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> EukmRNAseq<a href="index.html#eukmrnaseq" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="quantification" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Quantification<a href="index.html#quantification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="highlight">
+Can you please do the gene expression count in <strong>TPM</strong> instead of FPKM?
+</div>
+<p><strong>YES</strong>, but the automated pipeline does not release the TPM related result files. After the automated analysis is completed, we will do the TPM quantification manually and send the TPM result files.</p>
+<p>The delivered files include:</p>
+<ul>
+<li><p>quantification matrixs: gene_tpm.xls, gene_tpm_group.xls;</p></li>
+<li><p>pictures: violin, boxplot, density.</p></li>
+</ul>
+<p>The quotation is 1 Lh.</p>
+<p><br></p>
+<div class="highlight">
+Is it possible to use <strong>CPM</strong> instead of FPKM?
+</div>
+<p><strong>YES</strong>, We can provide quant result of CPM. The same as above.</p>
+<p><br></p>
+<div class="highlight">
+The client asking about PCA plots in RNA Quant analysis, specifically if we provide the <strong>coordinates</strong> of the points (each sample).
+</div>
+<p><strong>Feasible</strong>.</p>
+<p><br></p>
+<div class="highlight">
+The client asked us to provide a list of <strong>genes in PC1 and PC2</strong> in the principal component analysis.
+</div>
+<p>This is <strong>not feasible</strong>. This request reflects a misunderstanding of the PCA process. PCA is a dimensionality reduction technique used to simplify the complexity in large datasets by condensing the information into principal components, in this case, PC1 and PC2. These principal components are not lists of genes, but rather abstract representations that capture the most significant variance in the data. PC1 and PC2 do not correspond to specific genes directly; instead, they are vectors in the gene expression space, showing directions where the data vary the most. Therefore, it is not possible to provide a list of genes for PC1 and PC2 as such lists do not exist in the context of PCA.</p>
+<p><br></p>
+<div class="highlight">
+Our client has come back asking about their WT group in their PCA plots. In the first version of PCA plots, which includes all the samples, they saw a very good cluster of WT, AOLT_ISC and AOLT_IEC. In the second version for only these three groups, the two WT samples are clustered away from each other. They want to know if this is normal to see such a separation when re-doing the plots.
+</div>
+<p>It is normal as removing the other groups can allow for more noticeable variance between the individual samples.</p>
+<p>Deleting a partial grouping results in a change in the values of the eigenvalue matrix for the two dimensions presented, and this may lead to increased variability between individual samples within a group.</p>
+<p><br></p>
+<div class="highlight">
+Why do the heatmap, correlation, and PC have all samples? I was thinking could be done in groups as in the other graphs. Is possible to do that?
+</div>
+<p><strong>Feasible</strong>.</p>
+<p><br></p>
+<div class="highlight">
+Can we change the heatmap annotation from <strong>gene_id</strong> to <strong>gene_name</strong>.
+</div>
+<p>Yes, this requires an additional fee. A person hour of 0.6 hours. However, it should be noted that when a <strong>duplicate “gene_name”</strong> appears, a name such as “_1,_2,_3” will be added after the gene name.</p>
+<p><br></p>
+<div class="highlight">
+The client has uploaded data for gene count analysis - but they only have the <strong>.bam and .bam.bai</strong> files. Can you use those for the gene count analysis?
+</div>
+<p><strong>YES</strong>, we can use those for the gene count analysis manually.</p>
+<p><br></p>
+<div class="highlight">
+For the <strong>co-expression Venn diagram</strong>, what are the criteria for FPKM value for a gene/feature to be considered expressed? in other words, how did you get the number of genes commonly expressed versus uniquely expressed in a 3-way Venn diagram
+</div>
+<p>Genes with an <strong>FPKM value greater than 1</strong> in at least one sample are considered expressed and are used to populate the Venn diagram.</p>
+<p><br></p>
+<div class="highlight">
+When looking at the gene list, I come across <strong>‘novel’</strong> quite often, which reduces the mapped gene set by 60%. Do you know what are these and how to interpret them?
+</div>
+<p>These gene_id prefixed with ‘novel’ are the <strong>newly predicted genes</strong>. The new gene prediction section will enrich the results of known genes and will not affect the quantitative results of known genes.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="batch-effect" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Batch effect<a href="index.html#batch-effect" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="highlight">
+The client from project H202SC23123813; NVUS2023121220 is asking if we can do anything bioinformatically to <strong>remove batch effect</strong>. Do we provide a service that can accommodate the clients request? If so, what would the man hours/machine hours be for this request?
+</div>
+<p>We <strong>can</strong> remove batch effect, and it needs the client to provide the batch information corresponding to each sample.</p>
+<p>If the client needs to remove batch effect, the analysis should be done in a WBI stage, rather than release only stage.</p>
+<p><br></p>
+</div>
+<div id="differential-expression-genes-degs" class="section level3 hasAnchor" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> Differential Expression Genes (DEGs)<a href="index.html#differential-expression-genes-degs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="highlight">
+The expression numbers for genes in the <strong>count file</strong> are very different from the numbers on the <strong>DGE file</strong>.
+</div>
+<p>In the DEG file, the column B to K shows the <strong>nomalized readcount</strong> of all samples.</p>
+<p>And the column Z to AI shows the <strong>untreated readcount</strong> of all samples.</p>
+<p><br></p>
+<div class="highlight">
+<p>The client is asking about <strong>inconsistent normalized readcounts</strong> for the same gene. As an example,</p>
+<p>in comparison HeartAvsHeartS, HeartA group has an average normalized count of 6682.7 for STAT3 gene</p>
+<p>in comparison HeartDvsHeartA, HeartA group has an average normalized count of 5992.5 for STAT3 gene</p>
+Is it expected for the same samples/groups to have different nromalized readcounts in different comparisons?
+</div>
+<p>DESeq2 uses a method called “median of ratios” for normalization. The <strong>normalization factors</strong> can change depending on which samples are included in a particular comparison. This can lead to slightly different normalized counts for the same samples across different comparisons.</p>
+<p><br></p>
+<div class="highlight">
+Was both <strong>DESeq2 &amp; EdgeR</strong> used for the DEG analysis? Or was only DESeq2 used?
+</div>
+<p>For our DEG analysis, we employed a strategic approach based on the experimental design and <strong>sample replication</strong>. Here’s a breakdown of our methodology:</p>
+<p>For comparisons where each group had multiple biological replicates: We utilized DESeq2 for the analysis. This tool is particularly well-suited for experiments with biological replicates, as it leverages the power of replicate data to improve the accuracy of differential expression estimates.</p>
+<p>For comparisons where each group had only a single sample: In these cases, we employed EdgeR. This tool is better equipped to handle situations with limited replication, using statistical models that can work effectively even without biological replicates.</p>
+<p>It’s important to note that for any given comparison, we used only one of these tools, not both simultaneously. The choice between DESeq2 and EdgeR was made based on the replication structure of the specific comparison being analyzed.</p>
+<p><br></p>
+<div class="highlight">
+For the DEseq, did you run all the 2-group combinations <strong>individually</strong> or did you ran all groups <strong>at one time</strong> and use ‘contrast’ to get the comparison between groups?
+</div>
+<p>Run all the 2-group combinations <strong>individually</strong>.</p>
+<p><br></p>
+<div class="highlight">
+For the Excel lists of differential expression of all the genes, is there a way to include a few columns to provide some simple annotations to their <strong>protein products</strong>? Such as whether a protein product is a transmembrane protein, transcription factor, nuclear protein, and cytoplasmic protein.
+</div>
+<p>The tables already contain annotation and descriptions, please see screenshots below.</p>
+<p><img src="bookdown-demo_files/figure-html/DiffExprAnalysis_3.2 group1vsgroup2_deg.png" class="img-fixed-width" /></p>
+<p><br></p>
+<div class="highlight">
+Is the classification of a protein to be a transmembrane protein based on the gene description alone? Or is it also based on the presence of the signature hydrophobic transmembrane domain within a protein?
+</div>
+<p>It’s not based on our direct analysis of hydrophobicity etc, but on the gene description.</p>
+<p><br></p>
+<div class="highlight">
+Can we see the <strong>fold change</strong> data for each experiment in <strong>miRNA</strong> data? We can see the fold change data for each experiment in the mRNA and lncRNA data. But this is not possible for miRNA data.
+</div>
+<p>Read count of each sample <strong>is not shown</strong> in differential result in miRNA analysis. Apologize for the inconvenience. The client could reach to Result/0.SuppFiles/description.xls. Read count of all samples and log2foldchange of all experiments is listed.</p>
+<p><br></p>
+<div class="highlight">
+Why is <strong>padj set to “NA”</strong> even though p value is shown in the attached file?
+</div>
+<p>According to algorithm of DESeq2, there’s some explanations:
+<a href="https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#pvaluesNA" class="uri">https://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#pvaluesNA</a></p>
+<p><br></p>
+<div class="highlight">
+there are some <strong>padj values that =1</strong>, which doesn’t make sense based on the p value.
+</div>
+<p>In edgeR and DESeq2, the raw read counts matrix is subjected to independent filtering in addition to library normalization, which screens out genes that are unlikely to have biologically significant differences, regardless of whether their p-values are significant or not, to minimize false negative results. Independent filtering removes genes that are unlikely to be biologically different, regardless of whether their p-values are significant or not, in order to minimize false-negative results. Although FDR can control the probability of false-positive results, a large number of truly different genes are masked as the number of genes increases, which means that the probability of false-negative results increases, and FDR is unable to correct this situation. And Independent filtering (Independent filtering) is to reduce the false negatives of hypothesis testing.</p>
+<p>Therefore padj equal to 1, probably is a <strong>false negative</strong> result; It’s a normal phenomenon.</p>
+<p><br></p>
+<div class="highlight">
+The client wants to know why <strong>3.11E-08 would have a padj of 1</strong> while very similar values (2.77E-08, 3.83E-08) have much smaller padj?
+</div>
+<p>When you have very similar p-values but significantly different padj values, it could be due to differences in the <strong>dispersion estimates</strong> across genes. Genes with higher dispersion estimates will have larger padj values, even if their raw p-values are similar.</p>
+<p>In your specific case, the gene with a raw p-value of 3.11E-08 and a padj of 1 likely has higher dispersion or greater variability compared to the genes with raw p-values of 2.77E-08 and 3.83E-08. This increased variability can lead to a less significant adjusted p-value despite similar raw p-values. It’s essential to assess the dispersion estimates and consider the underlying biological context to interpret these results accurately.</p>
+<p><br></p>
+<div class="highlight">
+If the <strong>read count is 0</strong>, how much number is used in the fold change calculation instead of 0?
+</div>
+<p>DESeq2 uses a method called “regularized logarithm transformation” to estimate the log2foldchange in such cases. In DESeq2, a small constant value, typically <strong>0.5</strong>, is added to all the read counts before performing the analysis. This adjustment is known as “pseudocount” and helps to stabilize the calculations and avoid infinite values or undefined results when the read count is 0.</p>
+<p><br></p>
+<div class="highlight">
+In the methods shared by Novogene the <strong>cut-off</strong> for the absolute fold change is mentioned as 2 (log2FC=1), but I am seeing an absolute fold change of 1 (log2FC=0) in the differential expression genes list that has been provided in the results.
+</div>
+<p>If the number of different genes screened according to the above threshold is too small (<strong>less than 100</strong>), there will likely be no significant results in the subsequent functional enrichment analysis. Therefore, we will appropriately reduce the threshold for screening different genes according to the specific conditions of the project. We explained this in our final report.</p>
+<p><br></p>
+<div class="highlight">
+The client wants the top 15 genes labelled on the <strong>volcano</strong> plots.
+</div>
+<p><strong>Feasible</strong>.</p>
+<p><br></p>
+<div class="highlight">
+The client is wondering: “For the volcano plots, is it possible to have <strong>the y-axis set at the same range</strong> for all the four volcano plots. For instance, in the attached volcano maps, the y-axis is &gt;200 in one, while in the other, the y-axis is only up to 5? Is it possible to set all at say, 300, regardless of how tiny/small the other plot may appear?”
+</div>
+<p>This <strong>can</strong> be treated as after-sales service, and we need to be informed of the desired scale.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="enrichment" class="section level3 hasAnchor" number="1.1.4">
+<h3><span class="header-section-number">1.1.4</span> Enrichment<a href="index.html#enrichment" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="highlight">
+I want to know <strong>how to take advantage of all of these data in my project</strong>, I expect the PDL1 group to have more immunosuppression, especially for lymphocytes, so what are the genes that can show me this?
+</div>
+<p>I recommend the following approach:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Begin with the Enrichment Results</strong>: Start by examining the Enrichment file in your results. This file contains a wealth of information on gene function annotations and pathway enrichments. It’s an excellent starting point to identify relevant biological processes and pathways.</p></li>
+<li><p><strong>Focus on Immune-Related Pathways</strong>: Given your interest in immunosuppression, pay special attention to enriched pathways related to immune function, T cell activity, lymphocyte regulation, and immunosuppressive mechanisms.</p></li>
+<li><p><strong>Identify Relevant Genes</strong>: Once you’ve identified pathways of interest, use the corresponding XLS files to find the specific genes involved in these pathways. Look for genes known to be associated with immunosuppression, such as those encoding inhibitory receptors, immunosuppressive cytokines, or regulatory T cell markers.</p></li>
+<li><p><strong>Analyze Differential Expression</strong>: Examine the expression levels of these genes in your PDL1 group compared to the control. Look for upregulation of immunosuppressive genes or downregulation of genes associated with active immune responses.</p></li>
+</ol>
+<p><br></p>
+<div class="highlight">
+Our client is using a species called Octodon degus. I am able to find the “Taxon ID for Protein-Protein Interaction Analysis” number, however there is no Octodon degus <strong>“Org code for KEGG enrichment analysis”</strong>. How do we proceed with the analysis?
+</div>
+<p>For the KEGG enrichment analysis, we typically utilize the KOBAS database, which contains a comprehensive collection of pathway information. However, as you’ve noted, this database primarily focuses on representative and commonly studied species. Unfortunately, Octodon degus is not currently included in the KOBAS library.</p>
+<p>In such cases, our standard approach is to employ a strategy using <strong>a closely related species</strong> as a proxy. This method allows us to leverage the available data from a phylogenetically similar organism to gain insights into the pathways and biological processes that may be relevant to Octodon degus.</p>
+<p><br></p>
+<div class="highlight">
+What is the calculations for the <strong>Gene Ratio</strong>? What is <strong>BG Ratio</strong>?
+</div>
+<p><em><strong>Gene ratio</strong></em> means the number of differential genes belonging to a certain pathway is divided by the total number of the differential genes.</p>
+<p><em><strong>BG Ratio</strong></em> means the number of all genes belonging to a certain pathway is divided by the total number of all genes.</p>
+<p><br></p>
+<div class="highlight">
+Why is the pvalue for oxidative phosphorylation significant, but the <strong>padj</strong> value for oxidative phosphorylation no significant? How the padj scale interpreted.
+</div>
+<p>In general, differential gene screening for padj values is more strict.</p>
+<p>The padj value is a value that is modified by <strong>multiple comparisons</strong> of the original P-value and is often used to control the false positive error rate.</p>
+<p><br></p>
+<div class="highlight">
+The client had some questions about the <strong>KEGG graphs</strong> - “there are lots of human viruses and diseases enriched there, but its a dog cell line– were the genes matched to a canine library?”
+</div>
+<p>Some genes involved in KEGG pathways are <strong>conserved across multiple species</strong>. Therefore, even with canine gene data, it might enrich pathways related to viruses and diseases that are more extensively studied in other species such as human.</p>
+<p><br></p>
+<div class="highlight">
+Our client would like to know if we can repeat the <strong>enrichment analysis separately for up-regulated and down-regulated genes</strong>.
+</div>
+<p>Our current pipeline already incorporates separate enrichment analyses for up-regulated and down-regulated genes. This approach is <strong>a standard part of our differential expression analysis workflow</strong>, allowing for a more nuanced understanding of gene regulation patterns.</p>
+<p><br></p>
+<div class="highlight">
+Will it be possible to use <strong>C2/C3/hallmark gene sets</strong> for the GSEA analysis?
+</div>
+<p><strong>Feasible</strong>.</p>
+<p><br></p>
+<div class="highlight">
+The client is asking why some of the GO pathways are <strong>highlighted in yellow/red in the gene ontology maps</strong>.
+</div>
+<p>The box represents GO with a enrichment level of TOP5, and the depth of the color represents the enrichment level. <strong>The darker the color, the higher the enrichment level</strong>. Each node displays the name of the TERM and the pad of enrichment analysis.</p>
+<p><br></p>
+<div class="highlight">
+The client is wondering what the <strong>scores</strong> mean in the Protein-Protein interaction analysis (PP1 analysis set).
+</div>
+<p>This information comes from the string database，they are <strong>indicators of confidence</strong>, i.e. how likely STRING judges an interaction to be true, given the available evidence.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="as" class="section level3 hasAnchor" number="1.1.5">
+<h3><span class="header-section-number">1.1.5</span> AS<a href="index.html#as" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="highlight">
+The client has requested plots of the significant AS events for Creb3 and Rab3a. Can you please generate <strong>plots for all significant splicing events</strong> for these 2 genes?
+</div>
+<p><strong>Feasible</strong>.</p>
+<p><br></p>
+</div>
+<div id="snp" class="section level3 hasAnchor" number="1.1.6">
+<h3><span class="header-section-number">1.1.6</span> SNP<a href="index.html#snp" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="highlight">
+Is there a way to <strong>visualize SNP</strong> data in IGV browser?
+</div>
+<p>We don’t have a specific visualize file for SNP. The client may could import <strong>bam</strong> file into IGV and check specific locus.</p>
+<p><br></p>
+</div>
+</div>
+<div id="chip-seqrip-seqatac-seq" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> ChIP-Seq/RIP-seq/ATAC-seq<a href="index.html#chip-seqrip-seqatac-seq" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="highlight">
+In the motif differences analysis, what is the basis that considered for <strong>motif differences</strong> between S2Ko vs WT?
+</div>
+<p>This is based on the <strong>difference peak</strong> between S2Ko and WT. In each comparison group in the result/Compare folder, there is *_peak_compare_table.tsv, which contains information about all peaks. We use |log2foldchange|&gt;=1 as the significant threshold.</p>
+<p><br></p>
+<div class="highlight">
+The client want to <strong>compare the ATACseq KEGG with RNASeq KEGG</strong> of the same samples. Is there any way to integrate if they want to publish both RNAseq and ATAC results together? They claim that they see upregulation of some genes in the RNAseq that are downregulated in ATACseq. Does ATACseq measure RNA levels, so we can do expression analysis?
+</div>
+<p><em><strong>The ATACseq only assesses chomatin accessibility.</strong></em> It tells us about regions linked to transcriptional regulation, not direct gene expression. Transcriptional regulatory elements also won’t influence gene expression instantaneously and there are a lot of other confounding biological processes which can affect it (such as post transcriptional regulation).</p>
+<p>The other major reason for the differences is that RNAseq data is only going to tell us about a snapshot in time of gene expression and the open chromatin measured in ATACseq is technically an upstream process of transcription.</p>
+<p><br></p>
+<div class="highlight">
+The client asking if we can do <strong>integration analysis of the ATAC-seq results with RNA-seq</strong>.
+</div>
+<p>We can only <strong>extract the common differentially expressed genes</strong> of RNA and ATAC.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="human" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> HUMAN<a href="index.html#human" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="highlight">
+If the <strong>PON</strong> dataset used was tumor or a cancer-specific selection?
+</div>
+<p>The PON dataset is built using <strong>normal sample</strong> data.</p>
+<p><br></p>
+<div class="highlight">
+The client is requesting for <strong>a merged vcf file</strong> that has all the variants (sv, snp, indel,cnv).Can you help create this excel file?
+</div>
+<p>In our results, SV and CNV are files in GFF format and cannot be merged into VCF. SNP and indel results are in VCF format, so we can <strong>only merge SNP and indel</strong> results.</p>
+<p><br></p>
+<div class="highlight">
+If we can provide the <strong>BED file</strong> for the client
+</div>
+<p><strong>Sure</strong>.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="plantanimalmicrobial-wgs" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Plant/Animal/Microbial WGS<a href="index.html#plantanimalmicrobial-wgs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="highlight">
+<strong>No off targets found</strong>.
+</div>
+<p><strong>There are too many possibilities for negative results:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Maybe it wasn’t edited successfully.</p></li>
+<li><p>The frequency may be too low to detect.</p></li>
+<li><p>All that was detected was to take 200bp upstream and downstream of the mutation site to check if there were gRNA sites within this interval.</p></li>
+</ol>
+<p>The only thing that can be modified is to increase the upstream and downstream intervals to see if there are any. If there are, it indicates that the deviation from the target site is relatively far.</p>
+<p><br></p>
+<div class="highlight">
+I see that there is a good <strong>mapping rate</strong> for the first two samples, but virtually nothing for sample DIP0411_M. Can you help me understand why this is so low? Do we have any type of BLAST results for these samples?
+</div>
+<p>From the <strong>NT results</strong> in the QC report, it looks like the DIP0411_M is very possibly been contaminated by Escherichia coli, as nearly 91% of the 4973 reads out of randomly selected 5000 reads were blasted on this species.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="shotgun-metagenomics" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Shotgun Metagenomics<a href="index.html#shotgun-metagenomics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="highlight">
+Can you provide the <strong>number of the gene</strong> in each sample that corresponds to this KEGG entry EC 1.13.11.49?
+</div>
+<p>Clients can directly check the folder 05.FunctionAnnotation/KEGG/KEGG_MAT/Absolute.</p>
+<p><br></p>
+</div>
+<div id="shallow-shortgun-metagenomics" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> Shallow Shortgun-Metagenomics<a href="index.html#shallow-shortgun-metagenomics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="highlight">
+The client for project H202SC23010122; NVUS2022122707 is asking if the NR database was used for the analysis. They reviewed the results and <strong>algae</strong> is not identified in any of the results for these samples.
+</div>
+<p>The Kraken2 analysis uses the official Kraken database, which only includes bacteria, archaea, and viruses.</p>
+<p>NR database contains algae. If clients want to see algae, they need upgrade to the meta standard process and choose NR database.</p>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+</div>
+<div id="xsnrnaseq" class="section level2 hasAnchor" number="1.7">
+<h2><span class="header-section-number">1.7</span> 10XsnRNAseq<a href="index.html#xsnrnaseq" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="highlight">
+<strong>The estimated number of cells differs widely between the 4 samples</strong>- by a factor of up to 395 (ie
+[Estimated Number of Cells: A1 = 208, A2 = 79,014, A3 = 818, A4 = 1,289]).What could the explanation for this be? The amount of tissue was almost the same and the samples were collected, stored and shipped at the same time.
+</div>
+<p>We will first try using a new version reference genome for Cell Ranger analysis and re-analyze the report.</p>
+<p>The new reference genomes used are:</p>
+<p>Rattus norvegicus genome Ensembl release 112</p>
+<p>Rattus norvegicus genome NCBI GCF_036323735.1 GRCr8</p>
+<p>Previously, we used Rattus norvegicus genome Ensembl release 109. The results across these three versions are very similar, indicating that the data reflects real results. Additionally, Ensembl release 109 has been used in other projects with normal results, which further confirms that our bioinformatics analysis pipeline is functioning correctly.</p>
+<p>Given this, the most likely issue seems to be with the experimental procedure itself. It appears there might have been a failure in the experiment, as evidenced by the very low number of captured viable cells and the presence of significant cell debris and mRNA degradation. This will need to be investigated further by our lab colleagues.</p>
+<p><br></p>
+<div class="highlight">
+In the <strong>trajectory analysis</strong>, Endothelial cells were placed at time zero. Is there any rationale for this?
+</div>
+<p>In our analysis, we utilized the monocle2 software for conducting the trajectory analysis. It is important to note that monocle2 does not inherently determine the ‘time zero’ or the starting point of a pseudotemporal trajectory. Instead, it arbitrarily assigns a cell as the starting point for the trajectory, which doesn’t necessarily reflect temporal or biological initiation.</p>
+<p>However, if there is a particular biological rationale or specific requirement, we have the ability to adjust the analysis. This can involve designating a specific state, a cell type that we hypothesize to be originative, or a particular branch that is biologically meaningful as the point of initiation. If the client has a certain hypothesis or preference for which cells should be placed at time zero based on biological significance, we can certainly reconfigure the analysis to reflect this.</p>
+<p><br></p>
+<div class="highlight">
+In the <strong>tSNE plots</strong> and in the <strong>violin plots</strong>, show the expression of genes below.
+</div>
+<p><strong>Feasible</strong>. See results below.</p>
+<p><img src="bookdown-demo_files/figure-html/Genes_tSNE_FeaturePlot.png" class="img-fixed-width" /></p>
+<p><img src="bookdown-demo_files/figure-html/Genes_VlnPlot_Cluster.png" class="img-fixed-width" /></p>
+<p><br></p>
+<div class="highlight">
+<p>The client has some concerns regarding <strong>expression levels of housekeeping genes and ABRAXAS2</strong>. The question is below:</p>
+<p>We checked the results of single-cell RNA seq. Unfortunately, the cells seemed to be damaged throughout the clusters. We couldn’t even detect fundamental and housekeeping kidney tubular genes (for example, LRP2, etc) in these clusters.</p>
+<p>Due to the dead cell removal process in the static sample, ABRAXAS2 expression is lesser in the static sample, which may create a bias as well. Is it possible to send new samples for single nuclear RNA seq? Otherwise, the reviewers will not accept the current results.</p>
+</div>
+<p>I have carefully reviewed the expression levels of LRP2 and ABRAXAS2 using the Loupe files provided.</p>
+<p>Firstly, it is important to note that when checking gene expression levels with Loupe files, client need to import the Seurat analysis result files. These files include UMAP coordinates and cluster grouping information for each cell (e.g., Static.cluster.UMAP.csv and Static.clusters_info.csv, after converting the original .xls format to .csv).</p>
+<p><strong>Regarding the specific concerns:</strong></p>
+<ul>
+<li><p>Gene Expression Levels: Each sample captured approximately 5,000 cells, but the sequencing data volume is only about 30-40 GB. This results in suboptimal sequencing saturation, which may explain the absence of some genes, such as LRP2, in the detected data. This is a plausible occurrence given the data constraints.</p></li>
+<li><p>ABRAXAS2 Expression: The current data shows ABRAXAS2 expression in less than 20% of cells. This low percentage does not necessarily indicate widespread cell damage.</p></li>
+<li><p>Gene Differential Expression Analysis: Visual inspection through Loupe files alone is insufficient for determining differential gene expression between samples. An algorithmic approach, such as the Wilcoxon rank-sum test, is necessary to compute significance (p-values) and accurately determine if there is a differential expression of the target gene between samples. This requires integrating data from both samples, a step that has not been included in the current analysis, due to the BIF form did not specify the need for integrated analysis.</p></li>
+</ul>
+<p><br></p>
+<div class="highlight">
+
+</div>
+<p><br></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="customized-request.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

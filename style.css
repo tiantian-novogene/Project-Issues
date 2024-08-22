@@ -1,0 +1,32 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.highlight {
+  background-color: #99ff99;
+  margin-bottom: 20px;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-fixed-width {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px; /* 固定宽度 */
+}
